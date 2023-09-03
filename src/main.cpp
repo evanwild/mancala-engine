@@ -1,4 +1,5 @@
 #include "mancala.hpp"
+#include "minimax.hpp"
 #include <iostream>
 
 int main()
