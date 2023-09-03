@@ -21,13 +21,15 @@
  *
  * Visual representation of the board (with indices labeled):
  *
- *           <- Player
+ *         <- Player
  *
- *    [12][11][10][09][08][07]
- *  [13]                    [06]
- *    [00][01][02][03][04][05]
+ *  -----------------------
+ *  |  12 11 10 09 08 07  |
+ *  |13                 06|
+ *  |  00 01 02 03 04 05  |
+ *  -----------------------
  *
- *           Engine ->
+ *         Engine ->
  *
  * Each element in the array holds the number of stones currently in that pit
  * or store.

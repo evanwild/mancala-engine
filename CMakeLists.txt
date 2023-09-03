@@ -5,4 +5,4 @@ set(CMAKE_CXX_STANDARD_REQUIRED True)
 
 project(MancalaEngine)
 
-add_executable(MancalaEngine src/main.cpp)
+add_executable(MancalaEngine src/main.cpp src/mancala.cpp src/minimax.cpp)
