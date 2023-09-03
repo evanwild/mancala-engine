@@ -1,3 +1,4 @@
+#include "mancala.hpp"
 #include <iostream>
 
 int main()
