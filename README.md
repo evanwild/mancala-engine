@@ -19,6 +19,15 @@ cmake --build .
 ./MancalaEngine
 ```
 
+## Testing
+
+This project uses the [GoogleTest](https://github.com/google/googletest) framework. After following the build commands above, you can simply run
+```sh
+ctest
+```
+while in the build directory.
+
+
 ## Example Output
 
 A snippet from a game against the engine.
