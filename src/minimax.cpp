@@ -1,5 +1,7 @@
 #include "minimax.hpp"
 #include <algorithm>
+#include <array>
+#include <cstddef>
 
 int minimax(
     const MancalaBoard& board,
@@ -17,9 +19,10 @@ int minimax(
     auto best_eval
         = turn == PlayerTurn::Engine ? VERY_LOW_EVAL : VERY_HIGH_EVAL;
     auto best_move = -1;
+    auto moves = move_order(board, turn);
 
     if (turn == PlayerTurn::Engine) {
-        for (int i = 5; i >= 0; i--) {
+        for (auto i : moves) {
             if (board[i] == 0) {
                 continue;
             }
@@ -41,7 +44,7 @@ int minimax(
             }
         }
     } else {
-        for (int i = 12; i >= 7; i--) {
+        for (auto i : moves) {
             if (board[i] == 0) {
                 continue;
             }
@@ -86,4 +89,33 @@ int minimax(
     }
 
     return best_eval;
+}
+
+std::array<std::size_t, 6> move_order(const MancalaBoard& board, PlayerTurn turn)
+{
+    std::array<std::size_t, 6> moves;
+    std::size_t ptr = 0;
+
+    auto hi_index = (turn == PlayerTurn::Engine) ? 5 : 12;
+    auto lo_index = (turn == PlayerTurn::Engine) ? 0 : 7;
+
+    auto store_index = (turn == PlayerTurn::Engine) ? 6 : 13;
+
+    // First, push back moves that would let us go again
+    for (auto i = hi_index; i >= lo_index; i--) {
+        if (i + board[i] == store_index) {
+            moves[ptr] = i;
+            ptr++;
+        }
+    }
+
+    // Now push back the rest of the moves
+    for (auto i = hi_index; i >= lo_index; i--) {
+        if (i + board[i] != store_index) {
+            moves[ptr] = i;
+            ptr++;
+        }
+    }
+
+    return moves;
 }

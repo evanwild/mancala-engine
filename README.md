@@ -4,7 +4,7 @@
 
 This program was created for the purpose of finding strong moves in the strategy board game [Mancala](https://en.wikipedia.org/wiki/Mancala).
 
-It uses the minimax algorithm with alpha-beta pruning to search the tree of possible game states up to a certain depth (default 20) and return the best move along with an evaluation number. When this number is positive the engine is winning, and when it is negative the human player is winning.
+It uses the minimax algorithm with alpha-beta pruning to search the tree of possible game states up to a certain depth (default 24) and return the best move along with an evaluation number. When this number is positive the engine is winning, and when it is negative the human player is winning.
 
 ## Build Instructions
 

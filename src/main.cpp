@@ -7,7 +7,7 @@
 int main()
 {
     const int start_stones = 4;
-    const int engine_depth = 20;
+    const int engine_depth = 24;
 
     std::cout << "Is the engine playing first (y/n)? ";
 
