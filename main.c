@@ -54,7 +54,7 @@ int main() {
 
     if (game.turn == ENGINE) {
       int best_move;
-      int eval = search(game, 9, &best_move);
+      int eval = search(game, 10, &best_move);
 
       printf("Best move is %d (eval %d)\n", best_move, eval);
 
