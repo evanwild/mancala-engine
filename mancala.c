@@ -6,7 +6,8 @@ MancalaGame MancalaGame_create(Turn initial_turn) {
   MancalaGame game;
 
   game.turn = initial_turn;
-  game.turn_count = 0;
+  game.cur_streak = 0;
+  game.max_streak = 0;
 
   for (int i = 0; i < 14; i++) {
     game.pits[i] = i == 6 || i == 13 ? 0 : 4;
@@ -30,8 +31,6 @@ MancalaGame MancalaGame_play(MancalaGame game, int index) {
     printf("Error: tried to play index %d which is not a human pit\n", index);
     exit(1);
   }
-
-  game.turn_count++;
 
   // Pick up seeds out of pit
   int seeds = game.pits[index];
@@ -99,6 +98,12 @@ MancalaGame MancalaGame_play(MancalaGame game, int index) {
   // If you did not land in a pit, it's now the other players's turn
   if (index != 6 && index != 13) {
     game.turn = game.turn == HUMAN ? ENGINE : HUMAN;
+    game.cur_streak = 0;
+  }
+
+  game.cur_streak++;
+  if (game.cur_streak > game.max_streak) {
+    game.max_streak = game.cur_streak;
   }
 
   return game;

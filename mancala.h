@@ -21,8 +21,9 @@ typedef enum Turn {
 
 typedef struct MancalaGame {
   Turn turn;
-  int turn_count;
   int pits[14];
+  int cur_streak;
+  int max_streak;
 } MancalaGame;
 
 MancalaGame MancalaGame_create(Turn initial_turn);
