@@ -8,6 +8,8 @@ Although the game is relatively simple it's possible to execute strategies that 
 
 Another interesting thing you can do is get two engines to cooperate on a goal, for example playing the longest game or shortest game. I recently reworked it so two engines try to achieve the longest move streak, and it found one that is 20 moves long:
 
+https://github.com/user-attachments/assets/976bb4ba-c8e7-4aa4-bdd5-6e2bec170260
+
 ## Usage
 
 Requires a C compiler:
