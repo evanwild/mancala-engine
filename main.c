@@ -7,43 +7,33 @@ int search(MancalaGame game, int depth, int *best_move) {
     return game.max_streak;
   }
 
-  if (depth <= 20 && game.cur_streak == 1) {
-    // Optimization: Prune branches where a streak
-    // hasn't started with 20 moves left
-    return 0;
-  }
+  int pit_min = game.turn == ENGINE ? 0 : 7;
+  int pit_max = game.turn == ENGINE ? 5 : 12;
 
-  if (game.turn == ENGINE) {
-    int best_score = INT_MIN;
+  int best_score = INT_MIN;
 
-    for (int i = 0; i <= 5; i++) {
-      if (game.pits[i] == 0) continue;
+  for (int i = pit_min; i <= pit_max; i++) {
+    if (game.pits[i] == 0) continue;
 
-      int score = search(MancalaGame_play(game, i), depth - 1, NULL);
-      if (score > best_score) {
-        best_score = score;
-        if (best_move != NULL) *best_move = i;
-      }
+    MancalaGame new_game = MancalaGame_play(game, i);
+
+    int new_depth = new_game.turn == game.turn ? depth : depth - 1;
+    int score;
+
+    if (game.cur_streak >= 5 && new_game.cur_streak == 1) {
+      // Optimization: if a long streak is ongoing don't consider moves that end it
+      score = game.cur_streak;
+    } else {
+      score = search(new_game, new_depth, NULL);
     }
 
-    return best_score;
-  }
-
-  if (game.turn == HUMAN) {
-    int best_score = INT_MIN;
-
-    for (int i = 7; i <= 12; i++) {
-      if (game.pits[i] == 0) continue;
-
-      int score = search(MancalaGame_play(game, i), depth - 1, NULL);
-      if (score > best_score) {
-        best_score = score;
-        if (best_move != NULL) *best_move = i;
-      }
+    if (score > best_score) {
+      best_score = score;
+      if (best_move != NULL) *best_move = i;
     }
-
-    return best_score;
   }
+
+  return best_score;
 }
 
 int main() {
@@ -52,7 +42,7 @@ int main() {
 
   while (game.turn != GAMEOVER) {
     int best_move;
-    int eval = search(game, 30, &best_move);
+    int eval = search(game, 8, &best_move);
 
     printf("Best move is %d (eval %d)\n\n", best_move, eval);
 
