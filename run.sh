@@ -1,6 +1,6 @@
 #!/bin/bash
 set -e
 
-gcc -Wall -O2 main.c mancala.c
+g++ -std=c++20 -Wall -Ofast main.cpp
 
 ./a.out
