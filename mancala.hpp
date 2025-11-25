@@ -30,9 +30,10 @@ const int zeros[6] = {0, 0, 0, 0, 0, 0};
 
 struct MancalaGame {
   Turn turn;
+  int move_count;
   int pits[14];
 
-  MancalaGame(Turn initial_turn) : turn{initial_turn} {
+  MancalaGame(Turn initial_turn) : turn{initial_turn}, move_count{0} {
     for (int i = 0; i < 14; i++) {
       pits[i] = 4;
     }
@@ -42,6 +43,7 @@ struct MancalaGame {
 
   MancalaGame(const MancalaGame &other) {
     turn = other.turn;
+    move_count = other.move_count;
     memcpy(pits, other.pits, sizeof(pits));
   }
 
@@ -50,6 +52,8 @@ struct MancalaGame {
     if (turn == PLAYER1) assert(index >= 0 && index <= 5);
     if (turn == PLAYER2) assert(index >= 7 && index <= 12);
     assert(pits[index] > 0);
+
+    ++move_count;
 
     int seeds = pits[index];
     pits[index] = 0;
@@ -82,7 +86,7 @@ struct MancalaGame {
       pits[facing_index] = 0;
     }
 
-    if (memcmp(pits, zeros, 6) == 0) {
+    if (memcmp(pits, zeros, sizeof(zeros)) == 0) {
       for (int i = 7; i <= 12; i++) {
         pits[PLAYER2_STORE] += pits[i];
         pits[i] = 0;
@@ -91,7 +95,7 @@ struct MancalaGame {
       return;
     }
 
-    if (memcmp(pits+7, zeros, 6) == 0) {
+    if (memcmp(pits+7, zeros, sizeof(zeros)) == 0) {
       for (int i = 0; i <= 5; i++) {
         pits[PLAYER1_STORE] += pits[i];
         pits[i] = 0;

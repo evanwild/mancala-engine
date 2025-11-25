@@ -1,9 +1,11 @@
 #include "mancala.hpp"
 #include <cstdio>
 
+const int GOAL = 325;
+
 int search(const MancalaGame &game, int *best_move) {
   if (game.turn == GAMEOVER) {
-    return 0;
+    return game.move_count;
   }
 
   int pit_min = game.turn == PLAYER1 ? 0 : 7;
@@ -17,11 +19,24 @@ int search(const MancalaGame &game, int *best_move) {
     MancalaGame new_game{game};
     new_game.play(i);
 
-    int score = 1 + search(new_game, nullptr);
+    int seeds_left = 48 - new_game.pits[6] - new_game.pits[13];
+    int upperbound = new_game.move_count + 7*seeds_left;
+
+    int score;
+   
+    if (upperbound < GOAL) {
+      score = new_game.move_count;
+    } else {
+      score = search(new_game, nullptr);
+    }
 
     if (score > best_score) {
       best_score = score;
       if (best_move != nullptr) *best_move = i;
+    }
+
+    if (score >= GOAL) {
+      break;
     }
   }
 
@@ -32,8 +47,6 @@ int main() {
   MancalaGame game{PLAYER1};
   game.print();
 
-  int move_count = 0;
-
   while (game.turn != GAMEOVER) {
     int best_move;
     int eval = search(game, &best_move);
@@ -42,12 +55,7 @@ int main() {
 
     game.play(best_move);
     game.print();
-
-    ++move_count;
   }
-
-  printf("===========================\n");
-  printf("Total moves: %d\n", move_count);
 
   return 0;
 }
