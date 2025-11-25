@@ -1,11 +1,16 @@
 #include "mancala.hpp"
 #include <cstdio>
+#include <cstdint>
+#include <iostream>
+#include <unordered_map>
 
-const int GOAL = 325;
+const int GOAL = 374;
+
+std::unordered_map<uint64_t, int> cache;
 
 int search(const MancalaGame &game, int *best_move) {
   if (game.turn == GAMEOVER) {
-    return game.move_count;
+    return 0;
   }
 
   int pit_min = game.turn == PLAYER1 ? 0 : 7;
@@ -19,15 +24,26 @@ int search(const MancalaGame &game, int *best_move) {
     MancalaGame new_game{game};
     new_game.play(i);
 
-    int seeds_left = 48 - new_game.pits[6] - new_game.pits[13];
-    int upperbound = new_game.move_count + 7*seeds_left;
+    int seeds = new_game.seeds_left();
+    int upperbound = new_game.move_count + 8*seeds;
 
     int score;
-   
     if (upperbound < GOAL) {
-      score = new_game.move_count;
+      score = 0;
     } else {
-      score = search(new_game, nullptr);
+      bool do_cache = (seeds == 9);
+
+      if (do_cache) {
+        uint64_t hash = new_game.hash();
+        if (cache.count(hash)) {
+          score = cache[hash];
+        } else {
+          score = search(new_game, nullptr);
+          cache[hash] = score;
+        }
+      } else {
+        score = search(new_game, nullptr);
+      }
     }
 
     if (score > best_score) {
@@ -35,12 +51,12 @@ int search(const MancalaGame &game, int *best_move) {
       if (best_move != nullptr) *best_move = i;
     }
 
-    if (score >= GOAL) {
+    if (new_game.move_count + score >= GOAL) {
       break;
     }
   }
 
-  return best_score;
+  return best_score + 1;
 }
 
 int main() {

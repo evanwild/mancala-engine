@@ -3,6 +3,7 @@
 
 #include <cassert>
 #include <cstdio>
+#include <cstdint>
 #include <cstring>
 
 /*
@@ -107,6 +108,23 @@ struct MancalaGame {
     if (index != PLAYER1_STORE && index != PLAYER2_STORE) {
       turn = (turn == PLAYER1) ? PLAYER2 : PLAYER1;
     }
+  }
+
+  uint64_t hash() const {
+    uint64_t result = turn;
+    int offset = 2;
+
+    for (int i = 0; i < 14; i++) {
+      offset += pits[i];
+      result |= (1LLU << offset);
+      ++offset;
+    }
+
+    return result;
+  }
+
+  int seeds_left() const {
+    return 48 - pits[PLAYER1_STORE] - pits[PLAYER2_STORE];
   }
 
   void print() {
