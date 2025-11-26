@@ -48,7 +48,7 @@ struct MancalaGame {
     memcpy(pits, other.pits, sizeof(pits));
   }
 
-  void play(int index) {
+  void make_move(int index) {
     assert(turn != GAMEOVER);
     if (turn == PLAYER1) assert(index >= 0 && index <= 5);
     if (turn == PLAYER2) assert(index >= 7 && index <= 12);
@@ -111,13 +111,21 @@ struct MancalaGame {
   }
 
   uint64_t hash() const {
-    uint64_t result = turn;
-    int offset = 2;
+    uint64_t result = 0;
+    int offset = 0;
 
-    for (int i = 0; i < 14; i++) {
+    auto encode_pit = [&](int i) {
       offset += pits[i];
       result |= (1LLU << offset);
       ++offset;
+    };
+
+    if (turn == PLAYER1) {
+      for (int i = 0; i < 6; i++) encode_pit(i);
+      for (int i = 7; i < 13; i++) encode_pit(i);
+    } else if (turn == PLAYER2) {
+      for (int i = 7; i < 13; i++) encode_pit(i);
+      for (int i = 0; i < 6; i++) encode_pit(i);
     }
 
     return result;

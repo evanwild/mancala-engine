@@ -4,7 +4,7 @@
 #include <iostream>
 #include <unordered_map>
 
-const int GOAL = 374;
+const int GOAL = 500;
 
 std::unordered_map<uint64_t, int> cache;
 
@@ -22,30 +22,24 @@ int search(const MancalaGame &game, int *best_move) {
     if (game.pits[i] == 0) continue;
 
     MancalaGame new_game{game};
-    new_game.play(i);
+    new_game.make_move(i);
 
-    int seeds = new_game.seeds_left();
-    int upperbound = new_game.move_count + 8*seeds;
+    int upperbound = new_game.move_count + 11*new_game.seeds_left();
 
     int score;
     if (upperbound < GOAL) {
       score = 0;
     } else {
-      bool do_cache = (seeds == 9);
+      uint64_t hash = new_game.hash();
 
-      if (do_cache) {
-        uint64_t hash = new_game.hash();
-        if (cache.count(hash)) {
-          score = cache[hash];
-        } else {
-          score = search(new_game, nullptr);
-          cache[hash] = score;
-        }
+      if (cache.count(hash)) {
+        score = cache[hash];
       } else {
         score = search(new_game, nullptr);
+        cache[hash] = score;
       }
     }
-
+    
     if (score > best_score) {
       best_score = score;
       if (best_move != nullptr) *best_move = i;
@@ -69,7 +63,7 @@ int main() {
 
     printf("Best move is %d (eval %d)\n\n", best_move, eval);
 
-    game.play(best_move);
+    game.make_move(best_move);
     game.print();
   }
 
