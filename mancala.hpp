@@ -112,12 +112,10 @@ struct MancalaGame {
 
   uint64_t hash() const {
     uint64_t result = 0;
-    int offset = 0;
 
     auto encode_pit = [&](int i) {
-      offset += pits[i];
-      result |= (1LLU << offset);
-      ++offset;
+      result |= 1;
+      result <<= pits[i] + 1;
     };
 
     if (turn == PLAYER1) {

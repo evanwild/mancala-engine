@@ -1,0 +1,3010 @@
+PLAYER 1
+  04 04 04 04 04 04 
+00                 00
+  04 04 04 04 04 04 
+Best move is 1 (eval 503)
+
+PLAYER 2
+  04 04 04 04 04 04 
+00                 00
+  04 00 05 05 05 05 
+Best move is 8 (eval 502)
+
+PLAYER 1
+  05 05 05 05 00 04 
+00                 00
+  04 00 05 05 05 05 
+Best move is 0 (eval 501)
+
+PLAYER 2
+  05 05 05 05 00 04 
+00                 00
+  00 01 06 06 06 05 
+Best move is 7 (eval 500)
+
+PLAYER 1
+  05 06 06 06 01 00 
+00                 00
+  00 01 06 06 06 05 
+Best move is 1 (eval 499)
+
+PLAYER 2
+  05 06 06 06 01 00 
+00                 00
+  00 00 07 06 06 05 
+Best move is 8 (eval 498)
+
+PLAYER 1
+  05 06 06 07 00 00 
+00                 00
+  00 00 07 06 06 05 
+Best move is 2 (eval 497)
+
+PLAYER 2
+  05 06 06 08 01 01 
+00                 01
+  00 00 00 07 07 06 
+Best move is 7 (eval 496)
+
+PLAYER 1
+  05 06 06 08 02 00 
+00                 01
+  00 00 00 07 07 06 
+Best move is 3 (eval 495)
+
+PLAYER 2
+  05 06 07 09 03 01 
+00                 02
+  00 00 00 00 08 07 
+Best move is 9 (eval 494)
+
+PLAYER 1
+  06 07 08 00 03 01 
+01                 02
+  01 01 01 01 09 07 
+Best move is 0 (eval 493)
+
+PLAYER 2
+  06 07 08 00 03 01 
+01                 02
+  00 02 01 01 09 07 
+Best move is 8 (eval 492)
+
+PLAYER 1
+  06 08 09 01 00 01 
+01                 02
+  00 02 01 01 09 07 
+Best move is 1 (eval 491)
+
+PLAYER 2
+  06 08 09 01 00 01 
+01                 02
+  00 00 02 02 09 07 
+Best move is 9 (eval 490)
+
+PLAYER 1
+  06 08 10 00 00 01 
+01                 02
+  00 00 02 02 09 07 
+Best move is 3 (eval 489)
+
+PLAYER 2
+  06 08 10 00 00 01 
+01                 02
+  00 00 02 00 10 08 
+Best move is 10 (eval 488)
+
+PLAYER 1
+  07 09 00 00 00 02 
+02                 02
+  01 01 03 01 11 09 
+Best move is 3 (eval 487)
+
+PLAYER 2
+  07 09 00 00 00 02 
+02                 02
+  01 01 03 00 12 09 
+Best move is 7 (eval 486)
+
+PLAYER 1
+  07 09 00 01 01 00 
+02                 02
+  01 01 03 00 12 09 
+Best move is 2 (eval 485)
+
+PLAYER 2
+  07 09 00 01 01 00 
+02                 02
+  01 01 00 01 13 10 
+Best move is 9 (eval 484)
+
+PLAYER 1
+  07 09 01 00 01 00 
+02                 02
+  01 01 00 01 13 10 
+Best move is 3 (eval 483)
+
+PLAYER 2
+  07 09 01 00 01 00 
+02                 02
+  01 01 00 00 14 10 
+Best move is 8 (eval 482)
+
+PLAYER 1
+  07 09 01 01 00 00 
+02                 02
+  01 01 00 00 14 10 
+Best move is 0 (eval 481)
+
+PLAYER 2
+  07 09 01 01 00 00 
+02                 02
+  00 02 00 00 14 10 
+Best move is 9 (eval 480)
+
+PLAYER 1
+  07 09 02 00 00 00 
+02                 02
+  00 02 00 00 14 10 
+Best move is 1 (eval 479)
+
+PLAYER 2
+  07 09 02 00 00 00 
+02                 02
+  00 00 01 01 14 10 
+Best move is 10 (eval 478)
+
+PLAYER 1
+  08 10 00 00 00 00 
+02                 02
+  00 00 01 01 14 10 
+Best move is 4 (eval 477)
+
+PLAYER 2
+  09 11 01 01 01 01 
+02                 03
+  01 01 02 02 01 12 
+Best move is 7 (eval 476)
+
+PLAYER 1
+  09 11 01 01 02 00 
+02                 03
+  01 01 02 02 01 12 
+Best move is 0 (eval 475)
+
+PLAYER 2
+  09 11 01 01 02 00 
+02                 03
+  00 02 02 02 01 12 
+Best move is 8 (eval 474)
+
+PLAYER 1
+  09 11 02 02 00 00 
+02                 03
+  00 02 02 02 01 12 
+Best move is 3 (eval 473)
+
+PLAYER 2
+  09 11 02 02 00 00 
+02                 03
+  00 02 02 00 02 13 
+Best move is 10 (eval 472)
+
+PLAYER 1
+  10 12 00 02 00 00 
+02                 03
+  00 02 02 00 02 13 
+Best move is 2 (eval 471)
+
+PLAYER 2
+  10 12 00 02 00 00 
+02                 03
+  00 02 00 01 03 13 
+Best move is 9 (eval 470)
+
+PLAYER 1
+  10 13 01 00 00 00 
+02                 03
+  00 02 00 01 03 13 
+Best move is 1 (eval 469)
+
+PLAYER 2
+  10 13 01 00 00 00 
+02                 03
+  00 00 01 02 03 13 
+Best move is 10 (eval 468)
+
+PLAYER 1
+  10 14 00 00 00 00 
+02                 03
+  00 00 01 02 03 13 
+Best move is 3 (eval 467)
+
+PLAYER 2
+  10 14 00 00 00 00 
+02                 03
+  00 00 01 00 04 14 
+Best move is 11 (eval 466)
+
+PLAYER 1
+  12 01 01 01 01 01 
+03                 03
+  01 01 02 01 05 15 
+Best move is 0 (eval 465)
+
+PLAYER 2
+  12 01 01 01 01 01 
+03                 03
+  00 02 02 01 05 15 
+Best move is 7 (eval 464)
+
+PLAYER 1
+  12 01 01 01 02 00 
+03                 03
+  00 02 02 01 05 15 
+Best move is 2 (eval 463)
+
+PLAYER 2
+  12 01 01 01 02 00 
+03                 03
+  00 02 00 02 06 15 
+Best move is 10 (eval 462)
+
+PLAYER 1
+  12 02 00 01 02 00 
+03                 03
+  00 02 00 02 06 15 
+Best move is 3 (eval 461)
+
+PLAYER 2
+  12 02 00 01 02 00 
+03                 03
+  00 02 00 00 07 16 
+Best move is 9 (eval 460)
+
+PLAYER 1
+  12 02 01 00 02 00 
+03                 03
+  00 02 00 00 07 16 
+Best move is 1 (eval 459)
+
+PLAYER 2
+  12 02 01 00 02 00 
+03                 03
+  00 00 01 01 07 16 
+Best move is 10 (eval 458)
+
+PLAYER 1
+  12 03 00 00 02 00 
+03                 03
+  00 00 01 01 07 16 
+Best move is 2 (eval 457)
+
+PLAYER 2
+  12 03 00 00 02 00 
+03                 03
+  00 00 00 02 07 16 
+Best move is 8 (eval 456)
+
+PLAYER 1
+  12 03 01 01 00 00 
+03                 03
+  00 00 00 02 07 16 
+Best move is 3 (eval 455)
+
+PLAYER 2
+  12 03 01 01 00 00 
+03                 03
+  00 00 00 00 08 17 
+Best move is 12 (eval 454)
+
+PLAYER 1
+  00 04 02 02 01 01 
+04                 03
+  01 01 01 01 09 18 
+Best move is 0 (eval 453)
+
+PLAYER 2
+  00 04 02 02 01 01 
+04                 03
+  00 02 01 01 09 18 
+Best move is 10 (eval 452)
+
+PLAYER 1
+  01 05 00 02 01 01 
+04                 03
+  00 02 01 01 09 18 
+Best move is 3 (eval 451)
+
+PLAYER 2
+  01 05 00 02 01 01 
+04                 03
+  00 02 01 00 10 18 
+Best move is 9 (eval 450)
+
+PLAYER 1
+  01 06 01 00 01 01 
+04                 03
+  00 02 01 00 10 18 
+Best move is 1 (eval 449)
+
+PLAYER 2
+  01 06 01 00 01 01 
+04                 03
+  00 00 02 01 10 18 
+Best move is 7 (eval 448)
+
+PLAYER 1
+  01 06 01 00 02 00 
+04                 03
+  00 00 02 01 10 18 
+Best move is 3 (eval 447)
+
+PLAYER 2
+  01 06 01 00 02 00 
+04                 03
+  00 00 02 00 11 18 
+Best move is 8 (eval 446)
+
+PLAYER 1
+  01 06 02 01 00 00 
+04                 03
+  00 00 02 00 11 18 
+Best move is 2 (eval 445)
+
+PLAYER 2
+  01 06 02 01 00 00 
+04                 03
+  00 00 00 01 12 18 
+Best move is 10 (eval 444)
+
+PLAYER 1
+  02 07 00 01 00 00 
+04                 03
+  00 00 00 01 12 18 
+Best move is 4 (eval 443)
+
+PLAYER 2
+  03 08 01 02 01 01 
+04                 04
+  01 01 01 02 00 19 
+Best move is 7 (eval 442)
+
+PLAYER 1
+  03 08 01 02 02 00 
+04                 04
+  01 01 01 02 00 19 
+Best move is 0 (eval 441)
+
+PLAYER 2
+  03 08 01 02 02 00 
+04                 04
+  00 02 01 02 00 19 
+Best move is 10 (eval 440)
+
+PLAYER 1
+  03 09 00 02 02 00 
+04                 04
+  00 02 01 02 00 19 
+Best move is 3 (eval 439)
+
+PLAYER 2
+  03 09 00 02 02 00 
+04                 04
+  00 02 01 00 01 20 
+Best move is 9 (eval 438)
+
+PLAYER 1
+  03 10 01 00 02 00 
+04                 04
+  00 02 01 00 01 20 
+Best move is 1 (eval 437)
+
+PLAYER 2
+  03 10 01 00 02 00 
+04                 04
+  00 00 02 01 01 20 
+Best move is 10 (eval 436)
+
+PLAYER 1
+  03 11 00 00 02 00 
+04                 04
+  00 00 02 01 01 20 
+Best move is 2 (eval 435)
+
+PLAYER 2
+  03 11 00 00 02 00 
+04                 04
+  00 00 00 02 02 20 
+Best move is 8 (eval 434)
+
+PLAYER 1
+  03 11 01 01 00 00 
+04                 04
+  00 00 00 02 02 20 
+Best move is 3 (eval 433)
+
+PLAYER 2
+  03 11 01 01 00 00 
+04                 04
+  00 00 00 00 03 21 
+Best move is 11 (eval 432)
+
+PLAYER 1
+  04 00 01 02 01 01 
+05                 04
+  01 01 01 01 04 22 
+Best move is 1 (eval 431)
+
+PLAYER 2
+  04 00 01 02 01 01 
+05                 04
+  01 00 02 01 04 22 
+Best move is 10 (eval 430)
+
+PLAYER 1
+  04 01 00 02 01 01 
+05                 04
+  01 00 02 01 04 22 
+Best move is 3 (eval 429)
+
+PLAYER 2
+  04 01 00 02 01 01 
+05                 04
+  01 00 02 00 05 22 
+Best move is 11 (eval 428)
+
+PLAYER 1
+  05 00 00 02 01 01 
+05                 04
+  01 00 02 00 05 22 
+Best move is 2 (eval 427)
+
+PLAYER 2
+  05 00 00 02 01 01 
+05                 04
+  01 00 00 01 06 22 
+Best move is 9 (eval 426)
+
+PLAYER 1
+  05 01 01 00 01 01 
+05                 04
+  01 00 00 01 06 22 
+Best move is 3 (eval 425)
+
+PLAYER 2
+  05 01 01 00 01 01 
+05                 04
+  01 00 00 00 07 22 
+Best move is 11 (eval 424)
+
+PLAYER 1
+  06 00 01 00 01 01 
+05                 04
+  01 00 00 00 07 22 
+Best move is 0 (eval 423)
+
+PLAYER 2
+  06 00 01 00 01 01 
+05                 04
+  00 01 00 00 07 22 
+Best move is 12 (eval 422)
+
+PLAYER 1
+  00 00 01 00 01 01 
+06                 04
+  01 02 01 01 08 22 
+Best move is 3 (eval 421)
+
+PLAYER 2
+  00 00 01 00 01 01 
+06                 04
+  01 02 01 00 09 22 
+Best move is 7 (eval 420)
+
+PLAYER 1
+  00 00 01 00 02 00 
+06                 04
+  01 02 01 00 09 22 
+Best move is 2 (eval 419)
+
+PLAYER 2
+  00 00 01 00 02 00 
+06                 04
+  01 02 00 01 09 22 
+Best move is 8 (eval 418)
+
+PLAYER 1
+  00 00 02 01 00 00 
+06                 04
+  01 02 00 01 09 22 
+Best move is 0 (eval 417)
+
+PLAYER 2
+  00 00 02 01 00 00 
+06                 04
+  00 03 00 01 09 22 
+Best move is 10 (eval 416)
+
+PLAYER 1
+  01 01 00 01 00 00 
+06                 04
+  00 03 00 01 09 22 
+Best move is 3 (eval 415)
+
+PLAYER 2
+  01 01 00 01 00 00 
+06                 04
+  00 03 00 00 10 22 
+Best move is 9 (eval 414)
+
+PLAYER 1
+  01 01 01 00 00 00 
+06                 04
+  00 03 00 00 10 22 
+Best move is 1 (eval 413)
+
+PLAYER 2
+  01 01 01 00 00 00 
+06                 04
+  00 00 01 01 11 22 
+Best move is 11 (eval 412)
+
+PLAYER 1
+  02 00 01 00 00 00 
+06                 04
+  00 00 01 01 11 22 
+Best move is 3 (eval 411)
+
+PLAYER 2
+  02 00 01 00 00 00 
+06                 04
+  00 00 01 00 12 22 
+Best move is 10 (eval 410)
+
+PLAYER 1
+  02 01 00 00 00 00 
+06                 04
+  00 00 01 00 12 22 
+Best move is 2 (eval 409)
+
+PLAYER 2
+  02 01 00 00 00 00 
+06                 04
+  00 00 00 01 12 22 
+Best move is 11 (eval 408)
+
+PLAYER 1
+  03 00 00 00 00 00 
+06                 04
+  00 00 00 01 12 22 
+Best move is 4 (eval 407)
+
+PLAYER 2
+  04 01 01 01 01 01 
+06                 05
+  01 01 01 02 00 23 
+Best move is 7 (eval 406)
+
+PLAYER 1
+  04 01 01 01 02 00 
+06                 05
+  01 01 01 02 00 23 
+Best move is 1 (eval 405)
+
+PLAYER 2
+  04 01 01 01 02 00 
+06                 05
+  01 00 02 02 00 23 
+Best move is 8 (eval 404)
+
+PLAYER 1
+  04 01 02 02 00 00 
+06                 05
+  01 00 02 02 00 23 
+Best move is 3 (eval 403)
+
+PLAYER 2
+  04 01 02 02 00 00 
+06                 05
+  01 00 02 00 01 24 
+Best move is 11 (eval 402)
+
+PLAYER 1
+  05 00 02 02 00 00 
+06                 05
+  01 00 02 00 01 24 
+Best move is 0 (eval 401)
+
+PLAYER 2
+  05 00 02 02 00 00 
+06                 05
+  00 01 02 00 01 24 
+Best move is 10 (eval 400)
+
+PLAYER 1
+  06 01 00 02 00 00 
+06                 05
+  00 01 02 00 01 24 
+Best move is 2 (eval 399)
+
+PLAYER 2
+  06 01 00 02 00 00 
+06                 05
+  00 01 00 01 02 24 
+Best move is 11 (eval 398)
+
+PLAYER 1
+  07 00 00 02 00 00 
+06                 05
+  00 01 00 01 02 24 
+Best move is 1 (eval 397)
+
+PLAYER 2
+  07 00 00 02 00 00 
+06                 05
+  00 00 01 01 02 24 
+Best move is 9 (eval 396)
+
+PLAYER 1
+  07 01 01 00 00 00 
+06                 05
+  00 00 01 01 02 24 
+Best move is 3 (eval 395)
+
+PLAYER 2
+  07 01 01 00 00 00 
+06                 05
+  00 00 01 00 03 24 
+Best move is 11 (eval 394)
+
+PLAYER 1
+  08 00 01 00 00 00 
+06                 05
+  00 00 01 00 03 24 
+Best move is 2 (eval 393)
+
+PLAYER 2
+  08 00 01 00 00 00 
+06                 05
+  00 00 00 01 03 24 
+Best move is 10 (eval 392)
+
+PLAYER 1
+  08 01 00 00 00 00 
+06                 05
+  00 00 00 01 03 24 
+Best move is 3 (eval 391)
+
+PLAYER 2
+  08 01 00 00 00 00 
+06                 05
+  00 00 00 00 04 24 
+Best move is 11 (eval 390)
+
+PLAYER 1
+  09 00 00 00 00 00 
+06                 05
+  00 00 00 00 04 24 
+Best move is 5 (eval 389)
+
+PLAYER 2
+  11 02 02 02 02 02 
+06                 07
+  02 02 02 02 05 01 
+Best move is 7 (eval 388)
+
+PLAYER 1
+  11 02 02 03 03 00 
+06                 07
+  02 02 02 02 05 01 
+Best move is 3 (eval 387)
+
+PLAYER 2
+  11 02 02 03 03 00 
+06                 07
+  02 02 02 00 06 02 
+Best move is 10 (eval 386)
+
+PLAYER 1
+  12 03 00 03 03 00 
+06                 07
+  02 02 02 00 06 02 
+Best move is 2 (eval 385)
+
+PLAYER 2
+  12 03 00 03 03 00 
+06                 07
+  02 02 00 01 07 02 
+Best move is 9 (eval 384)
+
+PLAYER 1
+  13 04 01 00 03 00 
+06                 07
+  02 02 00 01 07 02 
+Best move is 1 (eval 383)
+
+PLAYER 2
+  13 04 01 00 03 00 
+06                 07
+  02 00 01 02 07 02 
+Best move is 10 (eval 382)
+
+PLAYER 1
+  13 05 00 00 03 00 
+06                 07
+  02 00 01 02 07 02 
+Best move is 0 (eval 381)
+
+PLAYER 2
+  13 05 00 00 03 00 
+06                 07
+  00 01 02 02 07 02 
+Best move is 8 (eval 380)
+
+PLAYER 1
+  13 06 01 01 00 00 
+06                 07
+  00 01 02 02 07 02 
+Best move is 3 (eval 379)
+
+PLAYER 2
+  13 06 01 01 00 00 
+06                 07
+  00 01 02 00 08 03 
+Best move is 10 (eval 378)
+
+PLAYER 1
+  13 07 00 01 00 00 
+06                 07
+  00 01 02 00 08 03 
+Best move is 4 (eval 377)
+
+PLAYER 2
+  14 08 01 02 01 01 
+06                 08
+  00 01 02 00 00 04 
+Best move is 7 (eval 376)
+
+PLAYER 1
+  14 08 01 02 02 00 
+06                 08
+  00 01 02 00 00 04 
+Best move is 1 (eval 375)
+
+PLAYER 2
+  14 08 01 02 02 00 
+06                 08
+  00 00 03 00 00 04 
+Best move is 9 (eval 374)
+
+PLAYER 1
+  14 09 02 00 02 00 
+06                 08
+  00 00 03 00 00 04 
+Best move is 2 (eval 373)
+
+PLAYER 2
+  14 09 02 00 02 00 
+06                 08
+  00 00 00 01 01 05 
+Best move is 10 (eval 372)
+
+PLAYER 1
+  15 10 00 00 02 00 
+06                 08
+  00 00 00 01 01 05 
+Best move is 4 (eval 371)
+
+PLAYER 2
+  15 10 00 00 02 00 
+06                 08
+  00 00 00 01 00 06 
+Best move is 8 (eval 370)
+
+PLAYER 1
+  15 10 01 01 00 00 
+06                 08
+  00 00 00 01 00 06 
+Best move is 3 (eval 369)
+
+PLAYER 2
+  15 10 01 01 00 00 
+06                 08
+  00 00 00 00 01 06 
+Best move is 10 (eval 368)
+
+PLAYER 1
+  15 11 00 01 00 00 
+06                 08
+  00 00 00 00 01 06 
+Best move is 4 (eval 367)
+
+PLAYER 2
+  15 11 00 01 00 00 
+06                 08
+  00 00 00 00 00 07 
+Best move is 11 (eval 366)
+
+PLAYER 1
+  16 00 00 02 01 01 
+07                 08
+  01 01 01 01 01 08 
+Best move is 0 (eval 365)
+
+PLAYER 2
+  16 00 00 02 01 01 
+07                 08
+  00 02 01 01 01 08 
+Best move is 7 (eval 364)
+
+PLAYER 1
+  16 00 00 02 02 00 
+07                 08
+  00 02 01 01 01 08 
+Best move is 1 (eval 363)
+
+PLAYER 2
+  16 00 00 02 02 00 
+07                 08
+  00 00 02 02 01 08 
+Best move is 9 (eval 362)
+
+PLAYER 1
+  16 01 01 00 02 00 
+07                 08
+  00 00 02 02 01 08 
+Best move is 4 (eval 361)
+
+PLAYER 2
+  16 01 01 00 02 00 
+07                 08
+  00 00 02 02 00 09 
+Best move is 8 (eval 360)
+
+PLAYER 1
+  16 01 02 01 00 00 
+07                 08
+  00 00 02 02 00 09 
+Best move is 3 (eval 359)
+
+PLAYER 2
+  16 01 02 01 00 00 
+07                 08
+  00 00 02 00 01 10 
+Best move is 11 (eval 358)
+
+PLAYER 1
+  17 00 02 01 00 00 
+07                 08
+  00 00 02 00 01 10 
+Best move is 4 (eval 357)
+
+PLAYER 2
+  17 00 02 01 00 00 
+07                 08
+  00 00 02 00 00 11 
+Best move is 10 (eval 356)
+
+PLAYER 1
+  18 01 00 01 00 00 
+07                 08
+  00 00 02 00 00 11 
+Best move is 2 (eval 355)
+
+PLAYER 2
+  18 01 00 01 00 00 
+07                 08
+  00 00 00 01 01 11 
+Best move is 11 (eval 354)
+
+PLAYER 1
+  19 00 00 01 00 00 
+07                 08
+  00 00 00 01 01 11 
+Best move is 5 (eval 353)
+
+PLAYER 2
+  20 01 01 02 01 01 
+07                 09
+  01 01 01 02 01 00 
+Best move is 7 (eval 352)
+
+PLAYER 1
+  20 01 01 02 02 00 
+07                 09
+  01 01 01 02 01 00 
+Best move is 1 (eval 351)
+
+PLAYER 2
+  20 01 01 02 02 00 
+07                 09
+  01 00 02 02 01 00 
+Best move is 8 (eval 350)
+
+PLAYER 1
+  20 01 02 03 00 00 
+07                 09
+  01 00 02 02 01 00 
+Best move is 4 (eval 349)
+
+PLAYER 2
+  20 01 02 03 00 00 
+07                 09
+  01 00 02 02 00 01 
+Best move is 11 (eval 348)
+
+PLAYER 1
+  21 00 02 03 00 00 
+07                 09
+  01 00 02 02 00 01 
+Best move is 0 (eval 347)
+
+PLAYER 2
+  21 00 02 03 00 00 
+07                 09
+  00 01 02 02 00 01 
+Best move is 10 (eval 346)
+
+PLAYER 1
+  22 01 00 03 00 00 
+07                 09
+  00 01 02 02 00 01 
+Best move is 1 (eval 345)
+
+PLAYER 2
+  22 01 00 03 00 00 
+07                 09
+  00 00 03 02 00 01 
+Best move is 11 (eval 344)
+
+PLAYER 1
+  23 00 00 03 00 00 
+07                 09
+  00 00 03 02 00 01 
+Best move is 3 (eval 343)
+
+PLAYER 2
+  23 00 00 03 00 00 
+07                 09
+  00 00 03 00 01 02 
+Best move is 9 (eval 342)
+
+PLAYER 1
+  24 01 01 00 00 00 
+07                 09
+  00 00 03 00 01 02 
+Best move is 4 (eval 341)
+
+PLAYER 2
+  24 01 01 00 00 00 
+07                 09
+  00 00 03 00 00 03 
+Best move is 11 (eval 340)
+
+PLAYER 1
+  25 00 01 00 00 00 
+07                 09
+  00 00 03 00 00 03 
+Best move is 2 (eval 339)
+
+PLAYER 2
+  25 00 01 00 00 00 
+07                 09
+  00 00 00 01 01 04 
+Best move is 10 (eval 338)
+
+PLAYER 1
+  25 01 00 00 00 00 
+07                 09
+  00 00 00 01 01 04 
+Best move is 4 (eval 337)
+
+PLAYER 2
+  25 01 00 00 00 00 
+07                 09
+  00 00 00 01 00 05 
+Best move is 11 (eval 336)
+
+PLAYER 1
+  26 00 00 00 00 00 
+07                 09
+  00 00 00 01 00 05 
+Best move is 3 (eval 335)
+
+PLAYER 2
+  26 00 00 00 00 00 
+07                 09
+  00 00 00 00 01 05 
+Best move is 12 (eval 334)
+
+PLAYER 1
+  02 02 02 02 02 02 
+09                 09
+  02 02 02 02 03 07 
+Best move is 0 (eval 333)
+
+PLAYER 2
+  02 02 02 02 02 02 
+09                 09
+  00 03 03 02 03 07 
+Best move is 10 (eval 332)
+
+PLAYER 1
+  03 03 00 02 02 02 
+09                 09
+  00 03 03 02 03 07 
+Best move is 3 (eval 331)
+
+PLAYER 2
+  03 03 00 02 02 02 
+09                 09
+  00 03 03 00 04 08 
+Best move is 9 (eval 330)
+
+PLAYER 1
+  03 04 01 00 02 02 
+09                 09
+  00 03 03 00 04 08 
+Best move is 2 (eval 329)
+
+PLAYER 2
+  03 04 01 00 02 02 
+09                 09
+  00 03 00 01 05 09 
+Best move is 8 (eval 328)
+
+PLAYER 1
+  03 04 02 01 00 02 
+09                 09
+  00 03 00 01 05 09 
+Best move is 1 (eval 327)
+
+PLAYER 2
+  03 04 02 01 00 02 
+09                 09
+  00 00 01 02 06 09 
+Best move is 7 (eval 326)
+
+PLAYER 1
+  03 04 02 02 01 00 
+09                 09
+  00 00 01 02 06 09 
+Best move is 3 (eval 325)
+
+PLAYER 2
+  03 04 02 02 01 00 
+09                 09
+  00 00 01 00 07 10 
+Best move is 10 (eval 324)
+
+PLAYER 1
+  04 05 00 02 01 00 
+09                 09
+  00 00 01 00 07 10 
+Best move is 5 (eval 323)
+
+PLAYER 2
+  05 06 01 03 02 01 
+09                 10
+  01 01 02 00 07 00 
+Best move is 7 (eval 322)
+
+PLAYER 1
+  05 06 01 03 03 00 
+09                 10
+  01 01 02 00 07 00 
+Best move is 0 (eval 321)
+
+PLAYER 2
+  05 06 01 03 03 00 
+09                 10
+  00 02 02 00 07 00 
+Best move is 10 (eval 320)
+
+PLAYER 1
+  05 07 00 03 03 00 
+09                 10
+  00 02 02 00 07 00 
+Best move is 2 (eval 319)
+
+PLAYER 2
+  05 07 00 03 03 00 
+09                 10
+  00 02 00 01 08 00 
+Best move is 9 (eval 318)
+
+PLAYER 1
+  06 08 01 00 03 00 
+09                 10
+  00 02 00 01 08 00 
+Best move is 3 (eval 317)
+
+PLAYER 2
+  06 08 01 00 03 00 
+09                 10
+  00 02 00 00 09 00 
+Best move is 10 (eval 316)
+
+PLAYER 1
+  06 09 00 00 03 00 
+09                 10
+  00 02 00 00 09 00 
+Best move is 1 (eval 315)
+
+PLAYER 2
+  06 09 00 00 03 00 
+09                 10
+  00 00 01 01 09 00 
+Best move is 8 (eval 314)
+
+PLAYER 1
+  06 10 01 01 00 00 
+09                 10
+  00 00 01 01 09 00 
+Best move is 2 (eval 313)
+
+PLAYER 2
+  06 10 01 01 00 00 
+09                 10
+  00 00 00 02 09 00 
+Best move is 10 (eval 312)
+
+PLAYER 1
+  06 11 00 01 00 00 
+09                 10
+  00 00 00 02 09 00 
+Best move is 3 (eval 311)
+
+PLAYER 2
+  06 11 00 01 00 00 
+09                 10
+  00 00 00 00 10 01 
+Best move is 11 (eval 310)
+
+PLAYER 1
+  07 00 00 02 01 01 
+10                 10
+  01 01 01 01 11 02 
+Best move is 0 (eval 309)
+
+PLAYER 2
+  07 00 00 02 01 01 
+10                 10
+  00 02 01 01 11 02 
+Best move is 7 (eval 308)
+
+PLAYER 1
+  07 00 00 02 02 00 
+10                 10
+  00 02 01 01 11 02 
+Best move is 1 (eval 307)
+
+PLAYER 2
+  07 00 00 02 02 00 
+10                 10
+  00 00 02 02 11 02 
+Best move is 9 (eval 306)
+
+PLAYER 1
+  07 01 01 00 02 00 
+10                 10
+  00 00 02 02 11 02 
+Best move is 3 (eval 305)
+
+PLAYER 2
+  07 01 01 00 02 00 
+10                 10
+  00 00 02 00 12 03 
+Best move is 8 (eval 304)
+
+PLAYER 1
+  07 01 02 01 00 00 
+10                 10
+  00 00 02 00 12 03 
+Best move is 2 (eval 303)
+
+PLAYER 2
+  07 01 02 01 00 00 
+10                 10
+  00 00 00 01 13 03 
+Best move is 9 (eval 302)
+
+PLAYER 1
+  07 01 03 00 00 00 
+10                 10
+  00 00 00 01 13 03 
+Best move is 3 (eval 301)
+
+PLAYER 2
+  07 01 03 00 00 00 
+10                 10
+  00 00 00 00 14 03 
+Best move is 11 (eval 300)
+
+PLAYER 1
+  08 00 03 00 00 00 
+10                 10
+  00 00 00 00 14 03 
+Best move is 4 (eval 299)
+
+PLAYER 2
+  09 01 04 01 01 01 
+10                 11
+  01 01 01 01 01 05 
+Best move is 7 (eval 298)
+
+PLAYER 1
+  09 01 04 01 02 00 
+10                 11
+  01 01 01 01 01 05 
+Best move is 0 (eval 297)
+
+PLAYER 2
+  09 01 04 01 02 00 
+10                 11
+  00 02 01 01 01 05 
+Best move is 8 (eval 296)
+
+PLAYER 1
+  09 01 05 02 00 00 
+10                 11
+  00 02 01 01 01 05 
+Best move is 1 (eval 295)
+
+PLAYER 2
+  09 01 05 02 00 00 
+10                 11
+  00 00 02 02 01 05 
+Best move is 11 (eval 294)
+
+PLAYER 1
+  10 00 05 02 00 00 
+10                 11
+  00 00 02 02 01 05 
+Best move is 4 (eval 293)
+
+PLAYER 2
+  10 00 05 02 00 00 
+10                 11
+  00 00 02 02 00 06 
+Best move is 9 (eval 292)
+
+PLAYER 1
+  10 01 06 00 00 00 
+10                 11
+  00 00 02 02 00 06 
+Best move is 3 (eval 291)
+
+PLAYER 2
+  10 01 06 00 00 00 
+10                 11
+  00 00 02 00 01 07 
+Best move is 11 (eval 290)
+
+PLAYER 1
+  11 00 06 00 00 00 
+10                 11
+  00 00 02 00 01 07 
+Best move is 4 (eval 289)
+
+PLAYER 2
+  11 00 06 00 00 00 
+10                 11
+  00 00 02 00 00 08 
+Best move is 12 (eval 288)
+
+PLAYER 1
+  00 00 07 01 01 01 
+11                 11
+  01 01 03 01 01 09 
+Best move is 0 (eval 287)
+
+PLAYER 2
+  00 00 07 01 01 01 
+11                 11
+  00 02 03 01 01 09 
+Best move is 7 (eval 286)
+
+PLAYER 1
+  00 00 07 01 02 00 
+11                 11
+  00 02 03 01 01 09 
+Best move is 4 (eval 285)
+
+PLAYER 2
+  00 00 07 01 02 00 
+11                 11
+  00 02 03 01 00 10 
+Best move is 9 (eval 284)
+
+PLAYER 1
+  00 00 08 00 02 00 
+11                 11
+  00 02 03 01 00 10 
+Best move is 2 (eval 283)
+
+PLAYER 2
+  00 00 08 00 02 00 
+11                 11
+  00 02 00 02 01 11 
+Best move is 8 (eval 282)
+
+PLAYER 1
+  00 00 09 01 00 00 
+11                 11
+  00 02 00 02 01 11 
+Best move is 3 (eval 281)
+
+PLAYER 2
+  00 00 09 01 00 00 
+11                 11
+  00 02 00 00 02 12 
+Best move is 9 (eval 280)
+
+PLAYER 1
+  00 00 10 00 00 00 
+11                 11
+  00 02 00 00 02 12 
+Best move is 5 (eval 279)
+
+PLAYER 2
+  01 01 11 01 01 01 
+11                 12
+  01 03 01 01 03 00 
+Best move is 7 (eval 278)
+
+PLAYER 1
+  01 01 11 01 02 00 
+11                 12
+  01 03 01 01 03 00 
+Best move is 3 (eval 277)
+
+PLAYER 2
+  01 01 11 01 02 00 
+11                 12
+  01 03 01 00 04 00 
+Best move is 9 (eval 276)
+
+PLAYER 1
+  01 01 12 00 02 00 
+11                 12
+  01 03 01 00 04 00 
+Best move is 2 (eval 275)
+
+PLAYER 2
+  01 01 12 00 02 00 
+11                 12
+  01 03 00 01 04 00 
+Best move is 8 (eval 274)
+
+PLAYER 1
+  01 01 13 01 00 00 
+11                 12
+  01 03 00 01 04 00 
+Best move is 3 (eval 273)
+
+PLAYER 2
+  01 01 13 01 00 00 
+11                 12
+  01 03 00 00 05 00 
+Best move is 9 (eval 272)
+
+PLAYER 1
+  01 01 14 00 00 00 
+11                 12
+  01 03 00 00 05 00 
+Best move is 1 (eval 271)
+
+PLAYER 2
+  01 01 14 00 00 00 
+11                 12
+  01 00 01 01 06 00 
+Best move is 11 (eval 270)
+
+PLAYER 1
+  02 00 14 00 00 00 
+11                 12
+  01 00 01 01 06 00 
+Best move is 3 (eval 269)
+
+PLAYER 2
+  02 00 14 00 00 00 
+11                 12
+  01 00 01 00 07 00 
+Best move is 10 (eval 268)
+
+PLAYER 1
+  03 02 01 01 01 01 
+12                 12
+  02 01 02 01 08 01 
+Best move is 3 (eval 267)
+
+PLAYER 2
+  03 02 01 01 01 01 
+12                 12
+  02 01 02 00 09 01 
+Best move is 10 (eval 266)
+
+PLAYER 1
+  03 03 00 01 01 01 
+12                 12
+  02 01 02 00 09 01 
+Best move is 2 (eval 265)
+
+PLAYER 2
+  03 03 00 01 01 01 
+12                 12
+  02 01 00 01 10 01 
+Best move is 9 (eval 264)
+
+PLAYER 1
+  03 03 01 00 01 01 
+12                 12
+  02 01 00 01 10 01 
+Best move is 3 (eval 263)
+
+PLAYER 2
+  03 03 01 00 01 01 
+12                 12
+  02 01 00 00 11 01 
+Best move is 10 (eval 262)
+
+PLAYER 1
+  03 04 00 00 01 01 
+12                 12
+  02 01 00 00 11 01 
+Best move is 0 (eval 261)
+
+PLAYER 2
+  03 04 00 00 01 01 
+12                 12
+  00 02 01 00 11 01 
+Best move is 7 (eval 260)
+
+PLAYER 1
+  03 04 00 00 02 00 
+12                 12
+  00 02 01 00 11 01 
+Best move is 2 (eval 259)
+
+PLAYER 2
+  03 04 00 00 02 00 
+12                 12
+  00 02 00 01 11 01 
+Best move is 8 (eval 258)
+
+PLAYER 1
+  03 04 01 01 00 00 
+12                 12
+  00 02 00 01 11 01 
+Best move is 1 (eval 257)
+
+PLAYER 2
+  03 04 01 01 00 00 
+12                 12
+  00 00 01 02 11 01 
+Best move is 10 (eval 256)
+
+PLAYER 1
+  03 05 00 01 00 00 
+12                 12
+  00 00 01 02 11 01 
+Best move is 4 (eval 255)
+
+PLAYER 2
+  04 06 01 02 01 01 
+12                 13
+  01 01 02 02 00 02 
+Best move is 10 (eval 254)
+
+PLAYER 1
+  04 07 00 02 01 01 
+12                 13
+  01 01 02 02 00 02 
+Best move is 3 (eval 253)
+
+PLAYER 2
+  04 07 00 02 01 01 
+12                 13
+  01 01 02 00 01 03 
+Best move is 9 (eval 252)
+
+PLAYER 1
+  04 08 01 00 01 01 
+12                 13
+  01 01 02 00 01 03 
+Best move is 4 (eval 251)
+
+PLAYER 2
+  04 08 01 00 01 01 
+12                 13
+  01 01 02 00 00 04 
+Best move is 8 (eval 250)
+
+PLAYER 1
+  04 08 01 01 00 01 
+12                 13
+  01 01 02 00 00 04 
+Best move is 2 (eval 249)
+
+PLAYER 2
+  04 08 01 01 00 01 
+12                 13
+  01 01 00 01 01 04 
+Best move is 10 (eval 248)
+
+PLAYER 1
+  04 09 00 01 00 01 
+12                 13
+  01 01 00 01 01 04 
+Best move is 4 (eval 247)
+
+PLAYER 2
+  04 09 00 01 00 01 
+12                 13
+  01 01 00 01 00 05 
+Best move is 9 (eval 246)
+
+PLAYER 1
+  04 09 01 00 00 01 
+12                 13
+  01 01 00 01 00 05 
+Best move is 3 (eval 245)
+
+PLAYER 2
+  04 09 01 00 00 01 
+12                 13
+  01 01 00 00 01 05 
+Best move is 10 (eval 244)
+
+PLAYER 1
+  04 10 00 00 00 01 
+12                 13
+  01 01 00 00 01 05 
+Best move is 4 (eval 243)
+
+PLAYER 2
+  04 10 00 00 00 01 
+12                 13
+  01 01 00 00 00 06 
+Best move is 7 (eval 242)
+
+PLAYER 1
+  04 10 00 00 01 00 
+12                 13
+  01 01 00 00 00 06 
+Best move is 0 (eval 241)
+
+PLAYER 2
+  04 10 00 00 01 00 
+12                 13
+  00 02 00 00 00 06 
+Best move is 11 (eval 240)
+
+PLAYER 1
+  05 00 00 00 02 01 
+13                 13
+  01 03 01 01 01 07 
+Best move is 2 (eval 239)
+
+PLAYER 2
+  05 00 00 00 02 01 
+13                 13
+  01 03 00 02 01 07 
+Best move is 8 (eval 238)
+
+PLAYER 1
+  05 00 01 01 00 01 
+13                 13
+  01 03 00 02 01 07 
+Best move is 0 (eval 237)
+
+PLAYER 2
+  05 00 01 01 00 01 
+13                 13
+  00 04 00 02 01 07 
+Best move is 9 (eval 236)
+
+PLAYER 1
+  05 00 02 00 00 01 
+13                 13
+  00 04 00 02 01 07 
+Best move is 4 (eval 235)
+
+PLAYER 2
+  05 00 02 00 00 01 
+13                 13
+  00 04 00 02 00 08 
+Best move is 7 (eval 234)
+
+PLAYER 1
+  05 00 02 00 01 00 
+13                 13
+  00 04 00 02 00 08 
+Best move is 3 (eval 233)
+
+PLAYER 2
+  05 00 02 00 01 00 
+13                 13
+  00 04 00 00 01 09 
+Best move is 8 (eval 232)
+
+PLAYER 1
+  05 00 02 01 00 00 
+13                 13
+  00 04 00 00 01 09 
+Best move is 4 (eval 231)
+
+PLAYER 2
+  05 00 02 01 00 00 
+13                 13
+  00 04 00 00 00 10 
+Best move is 10 (eval 230)
+
+PLAYER 1
+  06 01 00 01 00 00 
+13                 13
+  00 04 00 00 00 10 
+Best move is 1 (eval 229)
+
+PLAYER 2
+  06 01 00 01 00 00 
+13                 13
+  00 00 01 01 01 11 
+Best move is 11 (eval 228)
+
+PLAYER 1
+  07 00 00 01 00 00 
+13                 13
+  00 00 01 01 01 11 
+Best move is 5 (eval 227)
+
+PLAYER 2
+  08 01 01 02 01 01 
+13                 14
+  01 01 02 02 01 00 
+Best move is 7 (eval 226)
+
+PLAYER 1
+  08 01 01 02 02 00 
+13                 14
+  01 01 02 02 01 00 
+Best move is 1 (eval 225)
+
+PLAYER 2
+  08 01 01 02 02 00 
+13                 14
+  01 00 03 02 01 00 
+Best move is 11 (eval 224)
+
+PLAYER 1
+  09 00 01 02 02 00 
+13                 14
+  01 00 03 02 01 00 
+Best move is 4 (eval 223)
+
+PLAYER 2
+  09 00 01 02 02 00 
+13                 14
+  01 00 03 02 00 01 
+Best move is 9 (eval 222)
+
+PLAYER 1
+  09 01 02 00 02 00 
+13                 14
+  01 00 03 02 00 01 
+Best move is 3 (eval 221)
+
+PLAYER 2
+  09 01 02 00 02 00 
+13                 14
+  01 00 03 00 01 02 
+Best move is 11 (eval 220)
+
+PLAYER 1
+  10 00 02 00 02 00 
+13                 14
+  01 00 03 00 01 02 
+Best move is 4 (eval 219)
+
+PLAYER 2
+  10 00 02 00 02 00 
+13                 14
+  01 00 03 00 00 03 
+Best move is 10 (eval 218)
+
+PLAYER 1
+  11 01 00 00 02 00 
+13                 14
+  01 00 03 00 00 03 
+Best move is 2 (eval 217)
+
+PLAYER 2
+  11 01 00 00 02 00 
+13                 14
+  01 00 00 01 01 04 
+Best move is 8 (eval 216)
+
+PLAYER 1
+  11 01 01 01 00 00 
+13                 14
+  01 00 00 01 01 04 
+Best move is 4 (eval 215)
+
+PLAYER 2
+  11 01 01 01 00 00 
+13                 14
+  01 00 00 01 00 05 
+Best move is 12 (eval 214)
+
+PLAYER 1
+  00 01 02 02 01 01 
+14                 14
+  02 01 01 02 01 06 
+Best move is 0 (eval 213)
+
+PLAYER 2
+  00 01 02 02 01 01 
+14                 14
+  00 02 02 02 01 06 
+Best move is 8 (eval 212)
+
+PLAYER 1
+  00 01 02 03 00 01 
+14                 14
+  00 02 02 02 01 06 
+Best move is 4 (eval 211)
+
+PLAYER 2
+  00 01 02 03 00 01 
+14                 14
+  00 02 02 02 00 07 
+Best move is 11 (eval 210)
+
+PLAYER 1
+  01 00 02 03 00 01 
+14                 14
+  00 02 02 02 00 07 
+Best move is 3 (eval 209)
+
+PLAYER 2
+  01 00 02 03 00 01 
+14                 14
+  00 02 02 00 01 08 
+Best move is 10 (eval 208)
+
+PLAYER 1
+  02 01 00 03 00 01 
+14                 14
+  00 02 02 00 01 08 
+Best move is 4 (eval 207)
+
+PLAYER 2
+  02 01 00 03 00 01 
+14                 14
+  00 02 02 00 00 09 
+Best move is 11 (eval 206)
+
+PLAYER 1
+  03 00 00 03 00 01 
+14                 14
+  00 02 02 00 00 09 
+Best move is 2 (eval 205)
+
+PLAYER 2
+  03 00 00 03 00 01 
+14                 14
+  00 02 00 01 01 09 
+Best move is 9 (eval 204)
+
+PLAYER 1
+  04 01 01 00 00 01 
+14                 14
+  00 02 00 01 01 09 
+Best move is 1 (eval 203)
+
+PLAYER 2
+  04 01 01 00 00 01 
+14                 14
+  00 00 01 02 01 09 
+Best move is 11 (eval 202)
+
+PLAYER 1
+  05 00 01 00 00 01 
+14                 14
+  00 00 01 02 01 09 
+Best move is 4 (eval 201)
+
+PLAYER 2
+  05 00 01 00 00 01 
+14                 14
+  00 00 01 02 00 10 
+Best move is 7 (eval 200)
+
+PLAYER 1
+  05 00 01 00 01 00 
+14                 14
+  00 00 01 02 00 10 
+Best move is 3 (eval 199)
+
+PLAYER 2
+  05 00 01 00 01 00 
+14                 14
+  00 00 01 00 01 11 
+Best move is 10 (eval 198)
+
+PLAYER 1
+  05 01 00 00 01 00 
+14                 14
+  00 00 01 00 01 11 
+Best move is 2 (eval 197)
+
+PLAYER 2
+  05 01 00 00 01 00 
+14                 14
+  00 00 00 01 01 11 
+Best move is 11 (eval 196)
+
+PLAYER 1
+  06 00 00 00 01 00 
+14                 14
+  00 00 00 01 01 11 
+Best move is 5 (eval 195)
+
+PLAYER 2
+  07 01 01 01 02 01 
+14                 15
+  01 01 01 02 01 00 
+Best move is 7 (eval 194)
+
+PLAYER 1
+  07 01 01 01 03 00 
+14                 15
+  01 01 01 02 01 00 
+Best move is 0 (eval 193)
+
+PLAYER 2
+  07 01 01 01 03 00 
+14                 15
+  00 02 01 02 01 00 
+Best move is 9 (eval 192)
+
+PLAYER 1
+  07 01 02 00 03 00 
+14                 15
+  00 02 01 02 01 00 
+Best move is 4 (eval 191)
+
+PLAYER 2
+  07 01 02 00 03 00 
+14                 15
+  00 02 01 02 00 01 
+Best move is 11 (eval 190)
+
+PLAYER 1
+  08 00 02 00 03 00 
+14                 15
+  00 02 01 02 00 01 
+Best move is 3 (eval 189)
+
+PLAYER 2
+  08 00 02 00 03 00 
+14                 15
+  00 02 01 00 01 02 
+Best move is 10 (eval 188)
+
+PLAYER 1
+  09 01 00 00 03 00 
+14                 15
+  00 02 01 00 01 02 
+Best move is 1 (eval 187)
+
+PLAYER 2
+  09 01 00 00 03 00 
+14                 15
+  00 00 02 01 01 02 
+Best move is 11 (eval 186)
+
+PLAYER 1
+  10 00 00 00 03 00 
+14                 15
+  00 00 02 01 01 02 
+Best move is 4 (eval 185)
+
+PLAYER 2
+  10 00 00 00 03 00 
+14                 15
+  00 00 02 01 00 03 
+Best move is 8 (eval 184)
+
+PLAYER 1
+  10 01 01 01 00 00 
+14                 15
+  00 00 02 01 00 03 
+Best move is 2 (eval 183)
+
+PLAYER 2
+  10 01 01 01 00 00 
+14                 15
+  00 00 00 02 01 03 
+Best move is 11 (eval 182)
+
+PLAYER 1
+  11 00 01 01 00 00 
+14                 15
+  00 00 00 02 01 03 
+Best move is 4 (eval 181)
+
+PLAYER 2
+  11 00 01 01 00 00 
+14                 15
+  00 00 00 02 00 04 
+Best move is 10 (eval 180)
+
+PLAYER 1
+  11 01 00 01 00 00 
+14                 15
+  00 00 00 02 00 04 
+Best move is 3 (eval 179)
+
+PLAYER 2
+  11 01 00 01 00 00 
+14                 15
+  00 00 00 00 01 05 
+Best move is 9 (eval 178)
+
+PLAYER 1
+  11 01 01 00 00 00 
+14                 15
+  00 00 00 00 01 05 
+Best move is 4 (eval 177)
+
+PLAYER 2
+  11 01 01 00 00 00 
+14                 15
+  00 00 00 00 00 06 
+Best move is 12 (eval 176)
+
+PLAYER 1
+  00 01 02 01 01 01 
+15                 15
+  01 01 01 01 01 07 
+Best move is 0 (eval 175)
+
+PLAYER 2
+  00 01 02 01 01 01 
+15                 15
+  00 02 01 01 01 07 
+Best move is 11 (eval 174)
+
+PLAYER 1
+  01 00 02 01 01 01 
+15                 15
+  00 02 01 01 01 07 
+Best move is 2 (eval 173)
+
+PLAYER 2
+  01 00 02 01 01 01 
+15                 15
+  00 02 00 02 01 07 
+Best move is 10 (eval 172)
+
+PLAYER 1
+  02 01 00 01 01 01 
+15                 15
+  00 02 00 02 01 07 
+Best move is 4 (eval 171)
+
+PLAYER 2
+  02 01 00 01 01 01 
+15                 15
+  00 02 00 02 00 08 
+Best move is 9 (eval 170)
+
+PLAYER 1
+  02 01 01 00 01 01 
+15                 15
+  00 02 00 02 00 08 
+Best move is 3 (eval 169)
+
+PLAYER 2
+  02 01 01 00 01 01 
+15                 15
+  00 02 00 00 01 09 
+Best move is 8 (eval 168)
+
+PLAYER 1
+  02 01 01 01 00 01 
+15                 15
+  00 02 00 00 01 09 
+Best move is 4 (eval 167)
+
+PLAYER 2
+  02 01 01 01 00 01 
+15                 15
+  00 02 00 00 00 10 
+Best move is 9 (eval 166)
+
+PLAYER 1
+  02 01 02 00 00 01 
+15                 15
+  00 02 00 00 00 10 
+Best move is 1 (eval 165)
+
+PLAYER 2
+  02 01 02 00 00 01 
+15                 15
+  00 00 01 01 00 10 
+Best move is 11 (eval 164)
+
+PLAYER 1
+  03 00 02 00 00 01 
+15                 15
+  00 00 01 01 00 10 
+Best move is 3 (eval 163)
+
+PLAYER 2
+  03 00 02 00 00 01 
+15                 15
+  00 00 01 00 01 10 
+Best move is 10 (eval 162)
+
+PLAYER 1
+  04 01 00 00 00 01 
+15                 15
+  00 00 01 00 01 10 
+Best move is 2 (eval 161)
+
+PLAYER 2
+  04 01 00 00 00 01 
+15                 15
+  00 00 00 01 01 10 
+Best move is 11 (eval 160)
+
+PLAYER 1
+  05 00 00 00 00 01 
+15                 15
+  00 00 00 01 01 10 
+Best move is 4 (eval 159)
+
+PLAYER 2
+  05 00 00 00 00 01 
+15                 15
+  00 00 00 01 00 11 
+Best move is 7 (eval 158)
+
+PLAYER 1
+  05 00 00 00 01 00 
+15                 15
+  00 00 00 01 00 11 
+Best move is 5 (eval 157)
+
+PLAYER 2
+  06 01 01 01 02 01 
+15                 16
+  01 01 01 02 00 00 
+Best move is 7 (eval 156)
+
+PLAYER 1
+  06 01 01 01 03 00 
+15                 16
+  01 01 01 02 00 00 
+Best move is 1 (eval 155)
+
+PLAYER 2
+  06 01 01 01 03 00 
+15                 16
+  01 00 02 02 00 00 
+Best move is 11 (eval 154)
+
+PLAYER 1
+  07 00 01 01 03 00 
+15                 16
+  01 00 02 02 00 00 
+Best move is 3 (eval 153)
+
+PLAYER 2
+  07 00 01 01 03 00 
+15                 16
+  01 00 02 00 01 01 
+Best move is 8 (eval 152)
+
+PLAYER 1
+  07 01 02 02 00 00 
+15                 16
+  01 00 02 00 01 01 
+Best move is 4 (eval 151)
+
+PLAYER 2
+  07 01 02 02 00 00 
+15                 16
+  01 00 02 00 00 02 
+Best move is 11 (eval 150)
+
+PLAYER 1
+  08 00 02 02 00 00 
+15                 16
+  01 00 02 00 00 02 
+Best move is 2 (eval 149)
+
+PLAYER 2
+  08 00 02 02 00 00 
+15                 16
+  01 00 00 01 01 02 
+Best move is 10 (eval 148)
+
+PLAYER 1
+  09 01 00 02 00 00 
+15                 16
+  01 00 00 01 01 02 
+Best move is 4 (eval 147)
+
+PLAYER 2
+  09 01 00 02 00 00 
+15                 16
+  01 00 00 01 00 03 
+Best move is 11 (eval 146)
+
+PLAYER 1
+  10 00 00 02 00 00 
+15                 16
+  01 00 00 01 00 03 
+Best move is 3 (eval 145)
+
+PLAYER 2
+  10 00 00 02 00 00 
+15                 16
+  01 00 00 00 01 03 
+Best move is 9 (eval 144)
+
+PLAYER 1
+  10 01 01 00 00 00 
+15                 16
+  01 00 00 00 01 03 
+Best move is 4 (eval 143)
+
+PLAYER 2
+  10 01 01 00 00 00 
+15                 16
+  01 00 00 00 00 04 
+Best move is 11 (eval 142)
+
+PLAYER 1
+  11 00 01 00 00 00 
+15                 16
+  01 00 00 00 00 04 
+Best move is 0 (eval 141)
+
+PLAYER 2
+  11 00 01 00 00 00 
+15                 16
+  00 01 00 00 00 04 
+Best move is 12 (eval 140)
+
+PLAYER 1
+  00 00 02 01 01 01 
+16                 16
+  01 02 01 01 01 05 
+Best move is 0 (eval 139)
+
+PLAYER 2
+  00 00 02 01 01 01 
+16                 16
+  00 03 01 01 01 05 
+Best move is 8 (eval 138)
+
+PLAYER 1
+  00 00 02 02 00 01 
+16                 16
+  00 03 01 01 01 05 
+Best move is 2 (eval 137)
+
+PLAYER 2
+  00 00 02 02 00 01 
+16                 16
+  00 03 00 02 01 05 
+Best move is 10 (eval 136)
+
+PLAYER 1
+  01 01 00 02 00 01 
+16                 16
+  00 03 00 02 01 05 
+Best move is 4 (eval 135)
+
+PLAYER 2
+  01 01 00 02 00 01 
+16                 16
+  00 03 00 02 00 06 
+Best move is 7 (eval 134)
+
+PLAYER 1
+  01 01 00 02 01 00 
+16                 16
+  00 03 00 02 00 06 
+Best move is 3 (eval 133)
+
+PLAYER 2
+  01 01 00 02 01 00 
+16                 16
+  00 03 00 00 01 07 
+Best move is 8 (eval 132)
+
+PLAYER 1
+  01 01 00 03 00 00 
+16                 16
+  00 03 00 00 01 07 
+Best move is 4 (eval 131)
+
+PLAYER 2
+  01 01 00 03 00 00 
+16                 16
+  00 03 00 00 00 08 
+Best move is 11 (eval 130)
+
+PLAYER 1
+  02 00 00 03 00 00 
+16                 16
+  00 03 00 00 00 08 
+Best move is 1 (eval 129)
+
+PLAYER 2
+  02 00 00 03 00 00 
+16                 16
+  00 00 01 01 01 08 
+Best move is 9 (eval 128)
+
+PLAYER 1
+  03 01 01 00 00 00 
+16                 16
+  00 00 01 01 01 08 
+Best move is 4 (eval 127)
+
+PLAYER 2
+  03 01 01 00 00 00 
+16                 16
+  00 00 01 01 00 09 
+Best move is 11 (eval 126)
+
+PLAYER 1
+  04 00 01 00 00 00 
+16                 16
+  00 00 01 01 00 09 
+Best move is 3 (eval 125)
+
+PLAYER 2
+  04 00 01 00 00 00 
+16                 16
+  00 00 01 00 01 09 
+Best move is 10 (eval 124)
+
+PLAYER 1
+  04 01 00 00 00 00 
+16                 16
+  00 00 01 00 01 09 
+Best move is 4 (eval 123)
+
+PLAYER 2
+  04 01 00 00 00 00 
+16                 16
+  00 00 01 00 00 10 
+Best move is 11 (eval 122)
+
+PLAYER 1
+  05 00 00 00 00 00 
+16                 16
+  00 00 01 00 00 10 
+Best move is 5 (eval 121)
+
+PLAYER 2
+  06 01 01 01 01 01 
+16                 17
+  01 01 02 00 00 00 
+Best move is 7 (eval 120)
+
+PLAYER 1
+  06 01 01 01 02 00 
+16                 17
+  01 01 02 00 00 00 
+Best move is 1 (eval 119)
+
+PLAYER 2
+  06 01 01 01 02 00 
+16                 17
+  01 00 03 00 00 00 
+Best move is 9 (eval 118)
+
+PLAYER 1
+  06 01 02 00 02 00 
+16                 17
+  01 00 03 00 00 00 
+Best move is 2 (eval 117)
+
+PLAYER 2
+  06 01 02 00 02 00 
+16                 17
+  01 00 00 01 01 01 
+Best move is 11 (eval 116)
+
+PLAYER 1
+  07 00 02 00 02 00 
+16                 17
+  01 00 00 01 01 01 
+Best move is 0 (eval 115)
+
+PLAYER 2
+  07 00 02 00 02 00 
+16                 17
+  00 01 00 01 01 01 
+Best move is 10 (eval 114)
+
+PLAYER 1
+  08 01 00 00 02 00 
+16                 17
+  00 01 00 01 01 01 
+Best move is 1 (eval 113)
+
+PLAYER 2
+  08 01 00 00 02 00 
+16                 17
+  00 00 01 01 01 01 
+Best move is 11 (eval 112)
+
+PLAYER 1
+  09 00 00 00 02 00 
+16                 17
+  00 00 01 01 01 01 
+Best move is 2 (eval 111)
+
+PLAYER 2
+  09 00 00 00 02 00 
+16                 17
+  00 00 00 02 01 01 
+Best move is 8 (eval 110)
+
+PLAYER 1
+  09 00 01 01 00 00 
+16                 17
+  00 00 00 02 01 01 
+Best move is 4 (eval 109)
+
+PLAYER 2
+  09 00 01 01 00 00 
+16                 17
+  00 00 00 02 00 02 
+Best move is 10 (eval 108)
+
+PLAYER 1
+  09 01 00 01 00 00 
+16                 17
+  00 00 00 02 00 02 
+Best move is 3 (eval 107)
+
+PLAYER 2
+  09 01 00 01 00 00 
+16                 17
+  00 00 00 00 01 03 
+Best move is 11 (eval 106)
+
+PLAYER 1
+  10 00 00 01 00 00 
+16                 17
+  00 00 00 00 01 03 
+Best move is 4 (eval 105)
+
+PLAYER 2
+  10 00 00 01 00 00 
+16                 17
+  00 00 00 00 00 04 
+Best move is 12 (eval 104)
+
+PLAYER 1
+  00 00 00 02 01 01 
+17                 17
+  01 01 01 01 01 05 
+Best move is 0 (eval 101)
+
+PLAYER 2
+  00 00 00 02 01 01 
+17                 17
+  00 02 01 01 01 05 
+Best move is 7 (eval 100)
+
+PLAYER 1
+  00 00 00 02 02 00 
+17                 17
+  00 02 01 01 01 05 
+Best move is 1 (eval 99)
+
+PLAYER 2
+  00 00 00 02 02 00 
+17                 17
+  00 00 02 02 01 05 
+Best move is 9 (eval 98)
+
+PLAYER 1
+  00 01 01 00 02 00 
+17                 17
+  00 00 02 02 01 05 
+Best move is 4 (eval 97)
+
+PLAYER 2
+  00 01 01 00 02 00 
+17                 17
+  00 00 02 02 00 06 
+Best move is 8 (eval 96)
+
+PLAYER 1
+  00 01 02 01 00 00 
+17                 17
+  00 00 02 02 00 06 
+Best move is 3 (eval 95)
+
+PLAYER 2
+  00 01 02 01 00 00 
+17                 17
+  00 00 02 00 01 07 
+Best move is 11 (eval 94)
+
+PLAYER 1
+  01 00 02 01 00 00 
+17                 17
+  00 00 02 00 01 07 
+Best move is 4 (eval 93)
+
+PLAYER 2
+  01 00 02 01 00 00 
+17                 17
+  00 00 02 00 00 08 
+Best move is 10 (eval 92)
+
+PLAYER 1
+  02 01 00 01 00 00 
+17                 17
+  00 00 02 00 00 08 
+Best move is 2 (eval 91)
+
+PLAYER 2
+  02 01 00 01 00 00 
+17                 17
+  00 00 00 01 01 08 
+Best move is 11 (eval 90)
+
+PLAYER 1
+  03 00 00 01 00 00 
+17                 17
+  00 00 00 01 01 08 
+Best move is 4 (eval 89)
+
+PLAYER 2
+  03 00 00 01 00 00 
+17                 17
+  00 00 00 01 00 09 
+Best move is 12 (eval 88)
+
+PLAYER 1
+  00 00 00 01 00 00 
+18                 17
+  01 01 00 01 00 09 
+Best move is 0 (eval 87)
+
+PLAYER 2
+  00 00 00 01 00 00 
+18                 17
+  00 02 00 01 00 09 
+Best move is 9 (eval 86)
+
+PLAYER 1
+  00 00 01 00 00 00 
+18                 17
+  00 02 00 01 00 09 
+Best move is 1 (eval 85)
+
+PLAYER 2
+  00 00 01 00 00 00 
+18                 17
+  00 00 01 02 00 09 
+Best move is 10 (eval 84)
+
+PLAYER 1
+  00 01 00 00 00 00 
+18                 17
+  00 00 01 02 00 09 
+Best move is 3 (eval 83)
+
+PLAYER 2
+  00 01 00 00 00 00 
+18                 17
+  00 00 01 00 01 10 
+Best move is 11 (eval 82)
+
+PLAYER 1
+  01 00 00 00 00 00 
+18                 17
+  00 00 01 00 01 10 
+Best move is 5 (eval 81)
+
+PLAYER 2
+  02 01 01 01 01 01 
+18                 18
+  01 01 02 00 01 00 
+Best move is 7 (eval 80)
+
+PLAYER 1
+  02 01 01 01 02 00 
+18                 18
+  01 01 02 00 01 00 
+Best move is 1 (eval 79)
+
+PLAYER 2
+  02 01 01 01 02 00 
+18                 18
+  01 00 03 00 01 00 
+Best move is 11 (eval 78)
+
+PLAYER 1
+  03 00 01 01 02 00 
+18                 18
+  01 00 03 00 01 00 
+Best move is 4 (eval 77)
+
+PLAYER 2
+  03 00 01 01 02 00 
+18                 18
+  01 00 03 00 00 01 
+Best move is 10 (eval 76)
+
+PLAYER 1
+  03 01 00 01 02 00 
+18                 18
+  01 00 03 00 00 01 
+Best move is 2 (eval 75)
+
+PLAYER 2
+  03 01 00 01 02 00 
+18                 18
+  01 00 00 01 01 02 
+Best move is 9 (eval 74)
+
+PLAYER 1
+  03 01 01 00 02 00 
+18                 18
+  01 00 00 01 01 02 
+Best move is 4 (eval 73)
+
+PLAYER 2
+  03 01 01 00 02 00 
+18                 18
+  01 00 00 01 00 03 
+Best move is 8 (eval 72)
+
+PLAYER 1
+  03 01 02 01 00 00 
+18                 18
+  01 00 00 01 00 03 
+Best move is 3 (eval 71)
+
+PLAYER 2
+  03 01 02 01 00 00 
+18                 18
+  01 00 00 00 01 03 
+Best move is 11 (eval 70)
+
+PLAYER 1
+  04 00 02 01 00 00 
+18                 18
+  01 00 00 00 01 03 
+Best move is 0 (eval 69)
+
+PLAYER 2
+  04 00 02 01 00 00 
+18                 18
+  00 01 00 00 01 03 
+Best move is 10 (eval 68)
+
+PLAYER 1
+  05 01 00 01 00 00 
+18                 18
+  00 01 00 00 01 03 
+Best move is 4 (eval 67)
+
+PLAYER 2
+  05 01 00 01 00 00 
+18                 18
+  00 01 00 00 00 04 
+Best move is 9 (eval 66)
+
+PLAYER 1
+  05 01 01 00 00 00 
+18                 18
+  00 01 00 00 00 04 
+Best move is 5 (eval 65)
+
+PLAYER 2
+  05 01 01 01 01 01 
+18                 19
+  00 01 00 00 00 00 
+Best move is 12 (eval 64)
+
+PLAYER 1
+  00 01 01 01 01 01 
+19                 19
+  01 02 01 01 00 00 
+Best move is 0 (eval 63)
+
+PLAYER 2
+  00 01 01 01 01 01 
+19                 19
+  00 03 01 01 00 00 
+Best move is 8 (eval 62)
+
+PLAYER 1
+  00 01 01 02 00 01 
+19                 19
+  00 03 01 01 00 00 
+Best move is 2 (eval 61)
+
+PLAYER 2
+  00 01 01 02 00 01 
+19                 19
+  00 03 00 02 00 00 
+Best move is 7 (eval 60)
+
+PLAYER 1
+  00 01 01 02 01 00 
+19                 19
+  00 03 00 02 00 00 
+Best move is 3 (eval 59)
+
+PLAYER 2
+  00 01 01 02 01 00 
+19                 19
+  00 03 00 00 01 01 
+Best move is 8 (eval 58)
+
+PLAYER 1
+  00 01 01 03 00 00 
+19                 19
+  00 03 00 00 01 01 
+Best move is 4 (eval 57)
+
+PLAYER 2
+  00 01 01 03 00 00 
+19                 19
+  00 03 00 00 00 02 
+Best move is 11 (eval 56)
+
+PLAYER 1
+  01 00 01 03 00 00 
+19                 19
+  00 03 00 00 00 02 
+Best move is 1 (eval 55)
+
+PLAYER 2
+  01 00 01 03 00 00 
+19                 19
+  00 00 01 01 01 02 
+Best move is 10 (eval 54)
+
+PLAYER 1
+  01 01 00 03 00 00 
+19                 19
+  00 00 01 01 01 02 
+Best move is 4 (eval 53)
+
+PLAYER 2
+  01 01 00 03 00 00 
+19                 19
+  00 00 01 01 00 03 
+Best move is 11 (eval 52)
+
+PLAYER 1
+  02 00 00 03 00 00 
+19                 19
+  00 00 01 01 00 03 
+Best move is 3 (eval 51)
+
+PLAYER 2
+  02 00 00 03 00 00 
+19                 19
+  00 00 01 00 01 03 
+Best move is 9 (eval 50)
+
+PLAYER 1
+  03 01 01 00 00 00 
+19                 19
+  00 00 01 00 01 03 
+Best move is 2 (eval 49)
+
+PLAYER 2
+  03 01 01 00 00 00 
+19                 19
+  00 00 00 01 01 03 
+Best move is 11 (eval 48)
+
+PLAYER 1
+  04 00 01 00 00 00 
+19                 19
+  00 00 00 01 01 03 
+Best move is 4 (eval 47)
+
+PLAYER 2
+  04 00 01 00 00 00 
+19                 19
+  00 00 00 01 00 04 
+Best move is 10 (eval 46)
+
+PLAYER 1
+  04 01 00 00 00 00 
+19                 19
+  00 00 00 01 00 04 
+Best move is 3 (eval 45)
+
+PLAYER 2
+  04 01 00 00 00 00 
+19                 19
+  00 00 00 00 01 04 
+Best move is 11 (eval 44)
+
+PLAYER 1
+  05 00 00 00 00 00 
+19                 19
+  00 00 00 00 01 04 
+Best move is 5 (eval 43)
+
+PLAYER 2
+  05 00 00 01 01 01 
+19                 20
+  00 00 00 00 01 00 
+Best move is 7 (eval 42)
+
+PLAYER 1
+  05 00 00 01 02 00 
+19                 20
+  00 00 00 00 01 00 
+Best move is 4 (eval 41)
+
+PLAYER 2
+  05 00 00 01 02 00 
+19                 20
+  00 00 00 00 00 01 
+Best move is 12 (eval 40)
+
+PLAYER 1
+  00 00 00 01 02 00 
+20                 20
+  01 01 01 01 00 01 
+Best move is 2 (eval 39)
+
+PLAYER 2
+  00 00 00 01 02 00 
+20                 20
+  01 01 00 02 00 01 
+Best move is 9 (eval 38)
+
+PLAYER 1
+  00 00 01 00 02 00 
+20                 20
+  01 01 00 02 00 01 
+Best move is 0 (eval 37)
+
+PLAYER 2
+  00 00 01 00 02 00 
+20                 20
+  00 02 00 02 00 01 
+Best move is 8 (eval 36)
+
+PLAYER 1
+  00 00 02 01 00 00 
+20                 20
+  00 02 00 02 00 01 
+Best move is 3 (eval 35)
+
+PLAYER 2
+  00 00 02 01 00 00 
+20                 20
+  00 02 00 00 01 02 
+Best move is 10 (eval 34)
+
+PLAYER 1
+  01 01 00 01 00 00 
+20                 20
+  00 02 00 00 01 02 
+Best move is 4 (eval 33)
+
+PLAYER 2
+  01 01 00 01 00 00 
+20                 20
+  00 02 00 00 00 03 
+Best move is 9 (eval 32)
+
+PLAYER 1
+  01 01 01 00 00 00 
+20                 20
+  00 02 00 00 00 03 
+Best move is 1 (eval 31)
+
+PLAYER 2
+  01 01 01 00 00 00 
+20                 20
+  00 00 01 01 00 03 
+Best move is 11 (eval 30)
+
+PLAYER 1
+  02 00 01 00 00 00 
+20                 20
+  00 00 01 01 00 03 
+Best move is 3 (eval 29)
+
+PLAYER 2
+  02 00 01 00 00 00 
+20                 20
+  00 00 01 00 01 03 
+Best move is 10 (eval 28)
+
+PLAYER 1
+  02 01 00 00 00 00 
+20                 20
+  00 00 01 00 01 03 
+Best move is 2 (eval 27)
+
+PLAYER 2
+  02 01 00 00 00 00 
+20                 20
+  00 00 00 01 01 03 
+Best move is 11 (eval 26)
+
+PLAYER 1
+  03 00 00 00 00 00 
+20                 20
+  00 00 00 01 01 03 
+Best move is 5 (eval 25)
+
+PLAYER 2
+  03 00 00 00 01 01 
+20                 21
+  00 00 00 01 01 00 
+Best move is 7 (eval 24)
+
+PLAYER 1
+  03 00 00 00 02 00 
+20                 21
+  00 00 00 01 01 00 
+Best move is 4 (eval 23)
+
+PLAYER 2
+  03 00 00 00 02 00 
+20                 21
+  00 00 00 01 00 01 
+Best move is 8 (eval 22)
+
+PLAYER 1
+  03 00 01 01 00 00 
+20                 21
+  00 00 00 01 00 01 
+Best move is 3 (eval 21)
+
+PLAYER 2
+  03 00 01 01 00 00 
+20                 21
+  00 00 00 00 01 01 
+Best move is 10 (eval 20)
+
+PLAYER 1
+  03 01 00 01 00 00 
+20                 21
+  00 00 00 00 01 01 
+Best move is 4 (eval 19)
+
+PLAYER 2
+  03 01 00 01 00 00 
+20                 21
+  00 00 00 00 00 02 
+Best move is 12 (eval 18)
+
+PLAYER 1
+  00 01 00 01 00 00 
+21                 21
+  01 01 00 00 00 02 
+Best move is 0 (eval 17)
+
+PLAYER 2
+  00 01 00 01 00 00 
+21                 21
+  00 02 00 00 00 02 
+Best move is 9 (eval 16)
+
+PLAYER 1
+  00 01 01 00 00 00 
+21                 21
+  00 02 00 00 00 02 
+Best move is 1 (eval 15)
+
+PLAYER 2
+  00 01 01 00 00 00 
+21                 21
+  00 00 01 01 00 02 
+Best move is 11 (eval 14)
+
+PLAYER 1
+  01 00 01 00 00 00 
+21                 21
+  00 00 01 01 00 02 
+Best move is 3 (eval 13)
+
+PLAYER 2
+  01 00 01 00 00 00 
+21                 21
+  00 00 01 00 01 02 
+Best move is 10 (eval 12)
+
+PLAYER 1
+  01 01 00 00 00 00 
+21                 21
+  00 00 01 00 01 02 
+Best move is 4 (eval 11)
+
+PLAYER 2
+  01 01 00 00 00 00 
+21                 21
+  00 00 01 00 00 03 
+Best move is 11 (eval 10)
+
+PLAYER 1
+  02 00 00 00 00 00 
+21                 21
+  00 00 01 00 00 03 
+Best move is 5 (eval 9)
+
+PLAYER 2
+  02 00 00 00 01 01 
+21                 22
+  00 00 01 00 00 00 
+Best move is 7 (eval 8)
+
+PLAYER 1
+  02 00 00 00 02 00 
+21                 22
+  00 00 01 00 00 00 
+Best move is 2 (eval 7)
+
+PLAYER 2
+  02 00 00 00 02 00 
+21                 22
+  00 00 00 01 00 00 
+Best move is 8 (eval 6)
+
+PLAYER 1
+  02 00 01 01 00 00 
+21                 22
+  00 00 00 01 00 00 
+Best move is 3 (eval 5)
+
+PLAYER 2
+  02 00 01 01 00 00 
+21                 22
+  00 00 00 00 01 00 
+Best move is 9 (eval 4)
+
+PLAYER 1
+  02 00 02 00 00 00 
+21                 22
+  00 00 00 00 01 00 
+Best move is 4 (eval 3)
+
+PLAYER 2
+  02 00 02 00 00 00 
+21                 22
+  00 00 00 00 00 01 
+Best move is 10 (eval 2)
+
+PLAYER 1
+  03 01 00 00 00 00 
+21                 22
+  00 00 00 00 00 01 
+Best move is 5 (eval 1)
+
+GAME OVER
+  00 00 00 00 00 00 
+25                 23
+  00 00 00 00 00 00 
